@@ -1,8 +1,11 @@
 import React from 'react'
+import { StyledFoot } from './FooterStyles'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <StyledFoot>
+      <p> Copyright {new Date().getFullYear()}</p>
+    </StyledFoot>
   )
 }
 

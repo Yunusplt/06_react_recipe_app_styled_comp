@@ -9,7 +9,7 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 border-radius: 0 0 10px 10px;
-height: 75px;
+height: 8vh;
 font-size: 2rem;
 
 @media (max-width: 768px) {
