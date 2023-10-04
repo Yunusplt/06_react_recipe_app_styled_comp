@@ -4,7 +4,7 @@ export const LoginContainer = styled.div`
   /* resmin olduğu div */
   background-image: url("https://picsum.photos/1600/900");
   background-repeat: no-repeat;
-  height: 84vh;
+  height: 85vh;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -14,7 +14,7 @@ export const LoginContainer = styled.div`
 
 export const FormContainer = styled.div`
   /* yuvarlak yer */
-  /* width: 600px;
+  width: 600px;
   min-width: 600px;
   height: 600px;
   background-color: rgba(0, 173, 181, 0.5);
@@ -24,52 +24,56 @@ export const FormContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  flex-direction: column;
+  
 `;
 
 export const Header = styled.h1`
   /* clarusway başlığı yazan yer */
-  /* color: white;
   font-family: "Girassol", sans-serif;
-  font-size: 3rem; */
+  font-size: 2.5rem;
+  margin: 0;
+  span {
+    color: whitesmoke;
+  }
 `;
 
 export const StyledInput = styled.input`
   /* username giriş inputları */
-  /* height: 50px;
+  height: 50px;
   font-size: 2rem;
   width: 250px;
   border-radius: 5px;
-  font-family: "Girassol", sans-serif; */
+  font-family: "Girassol", sans-serif;
   /* inuta girilen yazıyı büyük harf yapar */
-  /* background-color: rgba(0, 0, 0, 0.6);
-  border: none;
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  margin: 1rem;
-  text-indent: 20px; */
+  margin: 1rem 1rem 0 1rem;
+  border: none;
+  text-indent: 20px;
 `;
 
 export const StyledForm = styled.form`
   /* 3 kutunun olduğu form */
-  /* background: pink;
+  background: pink;
   display: flex;
-  flex-direction: column; */
+  flex-direction: column;
 `;
 
 export const StyledButton = styled.button`
   /* login butonu */
-  /* font-size: 2rem;
+  font-size: 2rem;
   font-family: "Girassol", sans-serif;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
   cursor: pointer;
-  margin: 1rem; */
+  margin: 1rem;
 `;
 
 export const StyledImg = styled.img`
   /* yuvarlağın içindeki üstteki küçük resim */
 
-  width: 150px;
-  margin: 1rem;
+  width: 60%;
+
 `;

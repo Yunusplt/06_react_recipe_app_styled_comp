@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const HeaderContainer = styled.div`
   /* başlık ve 3 arama kutusunu taşıyan kutu TURUNCU */
 
@@ -13,9 +14,11 @@ export const HeaderContainer = styled.div`
 
 export const MainHeader = styled.h2`
   /* food app başlık */
-  margin-top: 1rem;
-  font-size: 3rem;
-  background-color: yellow;
+  margin: 1rem;
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  border-bottom: 2px solid ;
+  border-radius: 5px;
 `;
 
 export const FormContainer = styled.form`
@@ -27,7 +30,7 @@ export const FormContainer = styled.form`
   justify-content: center;
   border: 2px solid white;
   border-radius: 3px;
-  margin: 20px;
+  margin: 10px;
   background-color: blue;
 `;
 

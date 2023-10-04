@@ -6,7 +6,7 @@ const Navbar = () => {
   const [open, setOpen] =useState(false)
   return (
     <NavBar>
-      <Logo to="/home" onClick={()=>setOpen(false)}>RECIPE</Logo>
+      <Logo to="/home" onClick={()=>setOpen(false)}>RECIPE<span>BOOK</span></Logo>
       <Hamburger> <GiHamburgerMenu onClick={()=> setOpen(!open)}/> </Hamburger>
       <Menu osman={open}>
         <MenuLink to="/about">About</MenuLink>

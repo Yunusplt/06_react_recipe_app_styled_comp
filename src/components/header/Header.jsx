@@ -15,7 +15,7 @@ const Header = ({ setQuery, setMealType, getData }) => {
   };
   return (
     <HeaderContainer>
-      <MainHeader>FOOD APP</MainHeader>
+      <MainHeader>Search for whatever you want to cook.</MainHeader>
       <FormContainer onSubmit={handleSubmit}>
         <FoodInput
           placeholder="Search"

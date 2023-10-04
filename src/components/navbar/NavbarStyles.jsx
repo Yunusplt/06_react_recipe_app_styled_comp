@@ -9,7 +9,7 @@ justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
 border-radius: 0 0 10px 10px;
-height: 8vh;
+height: 76px;
 font-size: 2rem;
 
 @media (max-width: 768px) {
@@ -79,9 +79,13 @@ export const Menu = styled.div`
 
 export const Logo = styled(MenuLink)`
 background-color: gray;
-padding: 1rem 0;
+padding: 1rem 3rem;
 color: #393e46;
 font-weight: 800;
+
+span{
+  color: whitesmoke;
+}
 
 `;
 

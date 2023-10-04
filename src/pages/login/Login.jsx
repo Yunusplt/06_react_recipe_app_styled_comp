@@ -22,7 +22,7 @@ const Login = () => {
     <LoginContainer>
       <FormContainer>
         <StyledImg src={meal} />
-        <Header>{"<Clarusway/>"}Recipe</Header>
+        <Header>RECIPE<span>BOOK</span></Header>
 
         <StyledForm onSubmit={handleSubmit}>
           <StyledInput type="text" placeholder="username" required />

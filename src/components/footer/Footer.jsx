@@ -4,7 +4,7 @@ import { StyledFoot } from './FooterStyles'
 const Footer = () => {
   return (
     <StyledFoot>
-      <p> Copyright {new Date().getFullYear()}</p>
+      <span> Copyright {new Date().getFullYear()}</span>
     </StyledFoot>
   )
 }
