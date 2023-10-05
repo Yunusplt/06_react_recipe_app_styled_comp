@@ -4,7 +4,7 @@ export const LoginContainer = styled.div`
   /* resmin olduğu div */
   background-image: url("https://picsum.photos/1600/900");
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 87vh;
   background-size: cover;
   background-position: center;
   display: flex;

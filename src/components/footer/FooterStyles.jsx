@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StyledFoot = styled.div`
 background-color: black;
 color: white;
-height: 8vh;
+height: 6vh;
 position: fixed;
 bottom: 0;
 left: 0;

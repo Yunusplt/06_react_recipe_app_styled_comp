@@ -31,7 +31,7 @@ export const FormContainer = styled.form`
   border: 2px solid white;
   border-radius: 3px;
   margin: 10px;
-  background-color: blue;
+  background-color: #95a5a6;
 `;
 
 export const FoodInput = styled.input`

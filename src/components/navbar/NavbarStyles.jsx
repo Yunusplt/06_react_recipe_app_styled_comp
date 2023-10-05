@@ -8,7 +8,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
-border-radius: 0 0 10px 10px;
 height: 76px;
 font-size: 2rem;
 
@@ -18,7 +17,7 @@ font-size: 2rem;
 `;
 
 export const MenuLink = styled(Link)`
-  background-color: green;
+  background-color: #95a5a6;
   padding: 1rem 2rem;
   cursor: pointer;
   text-align: center;
@@ -27,6 +26,7 @@ export const MenuLink = styled(Link)`
   transition: all 0.3s ease-in;
   font-size: 2rem;
   font-family: "Girassol", sans-serif;
+  border-radius: 0 0 50px 50px;
   &:hover {
     color: #00adb5;
     font-weight: bold;
@@ -41,7 +41,7 @@ export const MenuLink = styled(Link)`
 `;
 
 export const Menu = styled.div`
-  background: #e1f1dd;
+  /* background: #e1f1dd; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +55,8 @@ export const Menu = styled.div`
   }
 
   a {
+    background-color: #95a5a6;
+    border-radius: 0 0 30px 30px;
     padding: 1rem 2rem;
     cursor: pointer;
     text-align: center;
